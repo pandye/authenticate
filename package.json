@@ -1,0 +1,19 @@
+{
+  "name": "authenticate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "~4.16.1",
+    "hoaxer": "^1.0.0",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.9.6",
+    "sequelize": "^6.37.3"
+  }
+}
