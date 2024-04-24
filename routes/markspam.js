@@ -33,11 +33,9 @@ router.post('/mark-spam', async (req, res) => {
         contactInstance.spamLikelihood += 1;
         await contactInstance.save();
 
-        res.send("phone number is marked as spam!");
+        res.send({ message: "phone number is marked as spam!" });
     }
     catch (error) {
-
-        console.log("error", error)
 
         res.status(500).send("Internal Server Error");
     }
