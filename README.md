@@ -17,5 +17,16 @@ Run the following command to run the project:
 npm start
 ```
 
+### Data Population
+
+Run the following command to poputate the database:
+
+```shell
+node populateDatabase.js
+```
+
+### API Authentication
+
 You need to authenticate yourself by obtaining a token via a login endpoint.
+
 Once you have the token, you include it in the headers of your requests as part of the Authorization header.
